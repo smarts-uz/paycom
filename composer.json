@@ -1,0 +1,12 @@
+{
+    "name": "teamprodev/paycom",
+    "require": {
+        "asadbek/paycom": "^1.1"
+    },
+    "authors": [
+        {
+            "name": "Asadbekinha",
+            "email": "fayzulloevasadbek@gmail.com"
+        }
+    ]
+}

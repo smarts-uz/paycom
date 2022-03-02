@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "46f9577f43855e17d8ce3c47ad2e05ab",
+    "packages": [
+        {
+            "name": "asadbek/paycom",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Asadbekinha/Paycom.git",
+                "reference": "5802a549f1c5512187982e9a1096236d1974e826"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Asadbekinha/Paycom/zipball/5802a549f1c5512187982e9a1096236d1974e826",
+                "reference": "5802a549f1c5512187982e9a1096236d1974e826",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Asadbek\\Paycom\\Providers\\PaycomPaymentProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Asadbek\\Paycom\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Asadbekinha",
+                    "email": "fayzulloevasadbek@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/Asadbekinha/Paycom/issues",
+                "source": "https://github.com/Asadbekinha/Paycom/tree/1.1.2"
+            },
+            "time": "2022-03-02T10:59:37+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
